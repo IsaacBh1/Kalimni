@@ -1,0 +1,42 @@
+.chat-window {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #f9fafe;
+  width: fit-content;
+  width: max-content;
+  flex-grow: 4;
+}
+
+
+
+.chat-window > :last-child {
+  margin-top: auto;
+}
+
+
+.chat-body {
+  display: flex;
+  padding: 16px;
+  overflow-y: scroll;
+  flex-direction: column;
+  flex: 1;
+}
+.chat-body p::selection {
+  background: none;
+  color: #242424;
+} 
+
+.chat-container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.empty {
+  align-items: center;
+  justify-content: center;
+  color: #242424;
+}

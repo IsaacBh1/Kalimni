@@ -1,0 +1,12 @@
+.chat-list-container {
+  width: 360px;
+  background: #fff;
+  padding:0 16px;
+  height: 100vh;
+}
+.message-list {
+  margin-top: 16px;
+}
+
+
+

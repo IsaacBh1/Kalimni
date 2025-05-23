@@ -1,0 +1,53 @@
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: #fff;
+  border-bottom: 1px solid #e0e0e0;
+  color: #555;
+}
+.chat-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.chat-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.chat-text-info .chat-name {
+  font-weight: 600;
+}
+.chat-text-info .chat-status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.5rem;
+  color: #555;
+}
+
+.chat-status {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.call-btn {
+  background: #635bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.green {
+  color: #08c25c;
+}

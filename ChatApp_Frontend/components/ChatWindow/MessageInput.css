@@ -1,0 +1,37 @@
+.message-input {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  background: #fff;
+  border-top: 1px solid #e0e0e0;
+
+}
+.icon-btn {
+  background: transparent;
+  border: none;
+  font-size: 1.25rem;
+  color: #888;
+  cursor: pointer;
+  margin-right: 8px;
+}
+.message-input input {
+  flex: 1;
+  border: none;
+  color: #242424;
+  outline: none;
+  padding: 8px 12px;
+  border-radius: 20px;
+  background: #f4f5f8;
+}
+.send-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #635bff;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 8px;
+  color: #fff;
+  cursor: pointer;
+}

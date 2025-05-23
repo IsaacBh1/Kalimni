@@ -1,0 +1,38 @@
+.message-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 8px;
+  transition: background 0.2s;
+  cursor: pointer;
+  border-bottom: 1px solid #f0f0f0;
+}
+.message-item:hover {
+  background: #f9faff;
+}
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.message-content {
+  flex: 1;
+}
+.message-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+}
+.name {
+  color: #222;
+}
+.time {
+  color: #888;
+  font-size: 0.75rem;
+}
+.text {
+  margin: 4px 0;
+  color: #555;
+  font-size: 0.875rem;
+}
